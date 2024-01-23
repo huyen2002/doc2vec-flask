@@ -2,6 +2,7 @@ import gensim
 from pyvi import ViTokenizer
 from gensim.models.doc2vec import Doc2Vec, TaggedDocument
 
+
 document_1 = "Ngành công nghệ thông tin có chương trình học bao gồm 124 tín chỉ. Trong đó 120 tín chỉ là bắt buộc, 4 tín chỉ là tự chọn. Nhằm tạo ra chất lượng đào tạo cao nhất."
 
 document_2 = "Ngành Trí tuệ nhân tạo có chương trình học bao gồm 120 tín chỉ. Ứng dụng AI vào công nghệ thông tin đang là xu thế hiện nay. "
