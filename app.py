@@ -2,7 +2,6 @@ import model
 from flask import Flask, request, jsonify
 from pyvi import ViTokenizer
 
-model.token_word()
 model.train_model()
 doc2vec_model = model.load_model()
 
