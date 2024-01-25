@@ -12,7 +12,10 @@ See in requirements.txt in project and run:
 ```
 pip install -r requirements.txt
 ```
-### 3. Run
+### 3. Data for train
+[Download](https://drive.google.com/drive/folders/1KvcRU8MzXtL9dXyPkR_kVgRggl49u6h1?usp=sharing) train corpus from my drive. Then put these folders to project like introduce_data folder.
+Remember change value of  ```train_corpus_dir``` variable to match with name of directory.
+### 4. Run
 ```
 flask --app app run
 ```

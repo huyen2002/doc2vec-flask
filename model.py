@@ -7,21 +7,17 @@ import string
 
 data =[]
 
+stops = open("stopwords_vietnamese.txt", "r", encoding="utf8").read().split()
 
-
-def token_word():
-    stop = open("stopwords_vietnamese.txt", "r", encoding="utf8").read().split()
-    for i in range(len(data)):
-       data[i] = (''.join([c for c in data[i] if not c.isdigit()])).lower()
-       token_words= ViTokenizer.tokenize(data[i]).split()
-       token_words_no_punct = [t for t in token_words if t not in stop and t not in string.punctuation]
-       data[i] = token_words_no_punct
-        
-
-    # print(data)
+def tokenize_word(doc):
+    doc_remove_digit = (''.join([c for c in doc if not c.isdigit()])).lower()
+    token_words = ViTokenizer.tokenize(doc_remove_digit).split()
+    token_words_no_punct =[t for t in token_words if t not in stops and t not in string.punctuation]
+    return token_words_no_punct
 
 
 def train_model():
+    
     train_corpus_dir = "introduce_data"
     docLabels = [file for file in listdir(train_corpus_dir) if file.endswith(".txt")]
     # print(docLabels)
@@ -30,7 +26,9 @@ def train_model():
         file = open(join(train_corpus_dir,doc), "r", encoding="utf8")
         data.append(file.read())
 
-    token_word()
+
+    for i in range(len(data)):
+        data[i] = tokenize_word(data[i])
 
    # tag data with tags is docLabels
     tagged_data = [TaggedDocument(words=data[i], tags=[docLabels[i]]) for i in range(len(data))]
