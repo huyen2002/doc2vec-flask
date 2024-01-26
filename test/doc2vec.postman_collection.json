@@ -1,0 +1,74 @@
+{
+	"info": {
+		"_postman_id": "1b18a4b0-f050-47ff-bbc5-9eb2291bd023",
+		"name": "doc2vec",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24153990"
+	},
+	"item": [
+		{
+			"name": "top_n_most_similar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"data\": \"Trường đại học công nghệ hiện nay đào tạo tập chung chuyên ngành chính là công nghệ thông tin.\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/api/compare_all",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"compare_all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "compare_two_documents",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"doc_1\":\"Trường đại học công nghệ hiện nay đào tạo tập chung chuyên ngành chính là công nghệ thông tin.\",\r\n    \"doc_2\":\"1. Một số thông tin về chương trình đào tạo - Tên ngành đào tạo:+ Tiếng Việt: Công nghệ Thông tin + Tiếng Anh: Information Technology– Mã số ngành đào tạo: 7480201 Danh hiệu tốt nghiệp: Cử nhân– Thời gian đào tạo: 4 năm\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/api/compare_two_documents",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"compare_two_documents"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
