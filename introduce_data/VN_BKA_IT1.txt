@@ -1,0 +1,35 @@
+1. Tên chương trình: KHOA HỌC MÁY TÍNH
+Đào tạo nhân lực chất lượng cao cho ngành Khoa học máy tính, có kiến thức cốt lõi
+ngành; có khả năng vận dụng kiến thức chuyên sâu của một trong các định hướng của
+ngành: Công nghệ phần mềm, Hệ thống thông tin, Khoa học dữ liệu, Trí tuệ nhân tạo để
+phân tích thiết kế, giải quyết vấn đề và đánh giá các giải pháp tiềm năng, có năng lực xây
+dựng và quản trị các hệ thống thông minh.
+2. Kiến thức, kỹ năng đạt được sau tốt nghiệp
+a. Kiến thức
+Có kiến thức khoa học cơ bản và các kiến thức cốt lõi về ngành Khoa học máy tính bao
+gồm hệ thống máy tính, giải thuật và lập trình, cơ sở dữ liệu, phân tích thiết kế và phát
+triển phần mềm, trí tuệ nhân tạo và khai phá dữ liệu, quản lý dự án...
+Tùy theo định hướng lựa chọn, người học được trang bị thêm các kiến thức chuyên sâu:
+- Định hướng kỹ nghệ phần mềm: các phương pháp, quy trình, kỹ thuật và công cụ
+trong việc phát triển phần mềm, quản lý các dự án phần mềm.
+- Định hướng hệ thống thông tin: các phương pháp, kỹ thuật và công nghệ để thu
+thập, lưu trữ, xử lý thông tin và phát hiện tri thức nhằm thiết kế, phát triển, vận
+hành, bảo trì và đánh giá các hệ thống thông tin.
+- Định hướng Khoa học dữ liệu: các kỹ thuật và công nghệ để thu thập, lưu trữ và
+xử lý dữ liệu lớn nhằm cung cấp giải pháp tiềm năng dựa trên dữ liệu đối với các
+ứng dụng phức tạp trong thực tế.
+- Định hướng trí tuệ nhân tạo (TTNT): các phương pháp mô hình toán học cho các
+lớp bài toán trong TTNT. Hiểu biết về công nghệ tri thức, về trí tuệ tính toán; sử
+dụng thành thạo các công cụ, nền tảng trong phát triển các ứng dụng TTNT.
+b. Kỹ năng
+Sau khi tốt nghiệp sinh viên được trang bị những kỹ năng như tổ chức, lãnh đạo và làm
+việc nhóm.
+c. Ngoại ngữ
+Sử dụng hiệu quả ngôn ngữ tiếng Anh trong giao tiếp và công việc, đạt TOEIC từ 500
+điểm trở lên.
+3. Thời gian đào tạo và khả năng học lên bậc học cao hơn
+- Đào tạo Cử nhân: 4 năm
+- Đào tạo Kỹ sư: 5 năm
+- Đào tạo tích hợp Cử nhân - Thạc sĩ: 5,5 năm
+
+- Đào tạo tích hợp Cử nhân - Thạc sĩ – Tiến sĩ: 8,5 năm
