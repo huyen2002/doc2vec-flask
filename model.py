@@ -42,10 +42,10 @@ def train_model():
         # tag data with tags is doc_labels
     tagged_data = [TaggedDocument(words=data[i], tags=[doc_labels[i]]) for i in range(len(data))]
     # print(tagged_data)
-    model = gensim.models.doc2vec.Doc2Vec(vector_size=100, dm=1, window=5, min_count=2, epochs=100)
+    model = gensim.models.doc2vec.Doc2Vec(vector_size=50, dm=1, window=5, min_count=2, epochs=100, workers=5)
 
     model.build_vocab(tagged_data)
-    model.train(tagged_data, total_examples=model.corpus_count, epochs=model.epochs)
+    model.train(tagged_data, total_examples=model.corpus_count, epochs=model.epochs )
 
     similar_doc = model.docvecs.most_similar(doc_labels[0])
     print(similar_doc)
