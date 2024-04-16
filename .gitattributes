@@ -1,1 +1,5 @@
 *.csv filter=lfs diff=lfs merge=lfs -text
+[[:space:]]doc2vec.model.dv.vectors.npy filter=lfs diff=lfs merge=lfs -text
+doc2vec.model.dv.vectors.npy filter=lfs diff=lfs merge=lfs -text
+doc2vec.model.syn1neg.npy filter=lfs diff=lfs merge=lfs -text
+doc2vec.model.wv.vectors.npy filter=lfs diff=lfs merge=lfs -text
