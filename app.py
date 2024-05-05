@@ -1,5 +1,3 @@
-from deep_translator import GoogleTranslator
-from pyvi.ViTokenizer import ViTokenizer
 import numpy as np
 import model
 from flask import Flask, request, jsonify

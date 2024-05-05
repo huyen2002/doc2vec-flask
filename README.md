@@ -17,11 +17,12 @@ See in requirements.txt in project and run:
 pip install -r requirements.txt
 ```
 
-### 3. Data for training
+### 3. Model
+Train [model](https://www.kaggle.com/code/thanhhuyennt02/english-wikipedia-articles/edit/run/173957496) in kaggle.
 
-[Download](https://drive.google.com/drive/folders/1KvcRU8MzXtL9dXyPkR_kVgRggl49u6h1?usp=sharing) train corpus from my drive. Then put these folders to project like introduce_data folder.
-Remember change value of  ```train_corpus_dir``` variable to match with name of directory.
+Copy files in output to project.
 
+This is folder [output](https://www.kaggle.com/code/thanhhuyennt02/english-wikipedia-articles/output) in kaggle: 
 ### 4. Run
 
 ``` cmd
